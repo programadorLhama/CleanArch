@@ -9,6 +9,8 @@ disable=
       C0321, # Multiple-statements
       W0221, # Arguments-differ
       R0801, # Duplicate-code
+      C0115, # missing-class-docstring
+      R0903, # too-few-public-methods
 
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
