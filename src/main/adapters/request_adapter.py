@@ -12,7 +12,7 @@ def request_adapter(request: FlaskRequest, controller: Callable) -> HttpResponse
         body=body,
         headers=request.headers,
         query_params=request.args,
-        path_params=request.vire_args,
+        path_params=request.view_args,
         url=request.full_path
     )
 
